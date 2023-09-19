@@ -1,0 +1,63 @@
+.slide {
+  width: 100%;
+  height: 100%;
+  max-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.slide .pic {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(100%);
+  animation: sliding 25s linear infinite;
+  z-index: 1;
+}
+.slide .pic:nth-of-type(1) {
+  background-image: url(../img/room-2.jpg);
+}
+.slide .pic:nth-of-type(2) {
+  background-image: url(../img/room-8.webp);
+  animation-delay: 5s;
+  background-position: bottom center;
+}
+.slide .pic:nth-of-type(3) {
+  background-image: url(../img/room-9.webp);
+  animation-delay: 10s;
+  background-position: bottom center;
+}
+.slide .pic:nth-of-type(4) {
+  background-image: url(../img/room-10.jpeg);
+  animation-delay: 15s;
+}
+.slide .pic:nth-of-type(5) {
+  background-image: url(../img/room-11.jpeg);
+  animation-delay: 20s;
+}
+
+@keyframes sliding {
+  0% {
+    transform: translateX(100%);
+    z-index: 1;
+  }
+  4% {
+    transform: translateX(0);
+    z-index: 10;
+  }
+  20% {
+    transform: translateX(0);
+    z-index: 10;
+  }
+  24% {
+    transform: translateX(-100%);
+    z-index: 1;
+  }
+  25% {
+    transform: translate(100%);
+    z-index: 1;
+  }
+}/*# sourceMappingURL=slide.css.map */

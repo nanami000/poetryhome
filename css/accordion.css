@@ -1,0 +1,90 @@
+#subtitle-goods {
+  width: 100%;
+  height: 98px;
+  line-height: 98px;
+  position: relative;
+  z-index: 12;
+}
+#subtitle-goods ul li {
+  display: flex;
+  position: relative;
+  width: 200px;
+  margin: 0 1px;
+}
+#subtitle-goods ul li .subtitle-new {
+  font-weight: bolder;
+  padding: 0 68px;
+}
+#subtitle-goods ul li .subtitle-sub li a {
+  text-align: center;
+}
+#subtitle-goods ul li a {
+  color: var(--lightBlack);
+  display: block;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  color: #3A3A3A;
+  background-color: #F6F6F6;
+}
+#subtitle-goods ul li .sub {
+  position: absolute;
+  background-color: #F6F6F6;
+  top: 100%;
+  width: 200px;
+}
+#subtitle-goods ul li .sub li {
+  display: block;
+  position: relative;
+}
+#subtitle-goods ul li .sub li a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+#subtitle-goods ul li .sub li ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 200px;
+}
+#subtitle-goods ul .colorPurple {
+  border-top: 5px solid #AEA5B8;
+}
+#subtitle-goods ul .colorPink {
+  border-top: 5px solid #D7878A;
+}
+#subtitle-goods ul .colorBlue {
+  border-top: 5px solid #B6CADE;
+}
+#subtitle-goods ul .colorYellow {
+  border-top: 5px solid #EED7AE;
+}
+#subtitle-goods ul .colorGreen {
+  border-top: 5px solid #868F74;
+}
+#subtitle-goods ul .colorPink ul li a:hover {
+  background-color: #D7878A;
+  color: #fff;
+  font-weight: bolder;
+}
+#subtitle-goods ul .colorBlue ul li a:hover {
+  background-color: #B6CADE;
+  color: #fff;
+  font-weight: bolder;
+}
+#subtitle-goods ul .colorYellow ul li a:hover {
+  background-color: #EED7AE;
+  color: #fff;
+  font-weight: bolder;
+}
+#subtitle-goods ul .colorGreen ul li a:hover {
+  background-color: #868F74;
+  color: #fff;
+  font-weight: bolder;
+}
+#subtitle-goods ul .colorPurple ul li a:hover {
+  background-color: #AEA5B8;
+  color: #fff;
+  font-weight: bolder;
+}/*# sourceMappingURL=accordion.css.map */
