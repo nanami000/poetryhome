@@ -287,7 +287,7 @@ footer {
     padding: calc(15vh - 2em) 1em 0;
   }
   #about {
-    padding: 90px 135px;
+    padding: 90px auto;
   }
   #service .grid-m-4 .push {
     filter: opacity(0);
