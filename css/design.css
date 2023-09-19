@@ -286,9 +286,9 @@ footer {
   #show .grid-12 {
     padding: calc(15vh - 2em) 1em 0;
   }
-  #about {
+/*   #about {
     padding: 90px auto;
-  }
+  } */
   #service .grid-m-4 .push {
     filter: opacity(0);
     transition: all 500ms ease;
