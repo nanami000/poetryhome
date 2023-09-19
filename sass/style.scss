@@ -1,0 +1,15 @@
+@import "reset","var";
+    @include default;
+@media screen and (min-width: 375px){
+    @include phone;
+}
+@media screen and (min-width: 768px){
+    @include table;
+}
+@media screen and (min-width: 1024px){
+    @include desk;
+}
+@media screen and (min-width: 1366px){
+    @include tv;
+}
+
